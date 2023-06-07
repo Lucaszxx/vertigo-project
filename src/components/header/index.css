@@ -1,0 +1,16 @@
+header {
+    width: 50vh;
+    height: fit-content;
+}
+
+img {
+    width: 10rem;
+    height: 3.375rem;
+    margin-top: 2.5rem;
+    margin-left: 7rem;
+}
+
+.globalDiv {
+    display: flex;
+    flex-direction: column;
+}

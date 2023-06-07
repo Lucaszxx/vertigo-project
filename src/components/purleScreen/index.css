@@ -1,0 +1,6 @@
+.fundo {
+    background-image: url('../../assets/fundoRoxo.jpeg');
+    background-size: cover;
+
+    height: 100vh;
+}

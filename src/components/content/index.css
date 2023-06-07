@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+section {
+    margin-left: 7rem;
+}
+
+.title {
+    margin-top: 7.125rem;
+    width: 23rem;
+}
+
+.title > h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.25rem;
+}
+
+.title > p {
+    margin-top: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.form {
+    margin-top: 1.875rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs > label {
+    font-size: 14px;
+    padding-top: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
+.inputs > input {
+    margin-top: 0.5rem;
+    width: 24rem;
+    height: 2.8125rem;
+    padding: 1rem 0.75rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    border: solid 1px #E2E8F0;
+    border-radius: 4px;
+}
+
+
+.field-icon {
+    float: right;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 21.25rem;
+    top: -4.5625rem;
+    position: relative;
+    z-index: 2;
+  }
+
+.inputs > input:hover {
+    border: solid 1px #7C3AED;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: solid 1px #7C3AED;
+}
+
+
+.inputs > input::placeholder {
+    color: #94A3B8;
+}
+
+.inputs > label > a {
+    margin-left: 14.125rem;
+    text-decoration: none;
+    color: #7C3AED;
+}
+
+.enterButton {
+    margin-top: -2rem;
+    width: 24rem;
+}
+
+.enterButton > button {
+    width: 24rem;
+    height: 2.8125rem;
+    background-color: #7C3AED;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}
+
+.enterButton > button:hover {
+    cursor: pointer;
+    background-color: #9F67FF;
+}
+
+.registrar {
+    margin-top: 32px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.registrar > p {
+    color: #475569;
+}
+
+.registrar > p > a {
+    text-decoration: none;
+    color: #7C3AED;
+    font-weight: 700;
+}
+
+.registrar > p > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #475569;
+}
